@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, pre, h1, h2, h3, h4, h5, h6, p, ul, form, fieldset, hr {
+  margin: 0;
+}
+
+ul, fieldset {
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+textarea {
+  resize: none;
+}
+
+iframe, fieldset {
+  border: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a:hover, a:active {
+  background-color: #f55;
+}
+
+.x-hide {
+  display: none !important;
+}
+
+hr {
+  border-color: black;
+  border-style: solid;
+}
